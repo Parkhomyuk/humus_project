@@ -108,7 +108,7 @@ function myMap() {
     var mapCanvas = document.getElementById("googleMap");
     var mapOptions = {
         center: myCenter,
-        zoom: 10,
+        zoom: 12,
         scrollwheel: false,
         panControl: true,
         zoomControl: true,
@@ -129,7 +129,7 @@ function myMap() {
             position: myLatlng,
             map: map,
             title: rest[i].title,
-            icon:'img/icccn.png'
+            icon:'img/icons.png'
         });
         var infoWindow = new google.maps.InfoWindow();
         /* google.maps.event.addListener(marker, "click", (function(marker, data) {
